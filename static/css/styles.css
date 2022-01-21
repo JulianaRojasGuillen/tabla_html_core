@@ -1,6 +1,8 @@
 body{
     margin: 0;
     padding:0;
+    display: flex;
+    justify-content: center;
     text-align: center;
 }
 
@@ -8,14 +10,13 @@ body{
     display:flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+    width:600px;
 }
-.campo{
-    background-color: rgb(88, 86, 86);
-    color:rgb(255, 187, 0);
-    width:200px;
-    padding:10px;
-}
-
 td{
     border-bottom:1px solid gray;
+}
+.campo{
+    color:goldenrod;
+    background-color: rgb(71, 67, 67);
 }
